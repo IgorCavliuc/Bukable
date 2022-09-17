@@ -11,7 +11,7 @@ function App() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const apiUrl = `http://localhost:3000/InfoPerson.json`;
+    const apiUrl = `https://github.com/IgorCavliuc/Bukable/blob/FrontEnd_Cavliuc/public/InfoPerson.json`;
     fetch(apiUrl)
       .then((res) => res.json())
       .then((repos) => {

@@ -1,0 +1,322 @@
+{
+  "persons": [
+    {
+      "id": "1",
+      "image": "/Andrea.png",
+      "position": "Marketing Intern - Google",
+      "name": "Andre Mark",
+      "location": "Moscow, Russia",
+      "avaible_time": "10-20 hrs/week",
+      "avaible": true,
+      "like": true,
+      "official": true,
+      "Education": [
+        {
+          "id": "1",
+          "img": "/Flag1.png",
+          "speciality": "Spb, Computer Animation",
+          "education": "University of London • Class of 2020"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "/Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Adobe Premiere Pro, Final Cut pro, Canva, and Short form editing for TikTok",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Increase user base on Instagram from 1500 followers to 2200 followers."
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            }
+          ]
+        },
+        {
+          "img": "/Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Increase user base on Instagram from 1500 followers to 2200 followers."
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•Film and edit videos to enhance our social media presence and capture the student’s attention."
+            }
+          ]
+        }
+      ],
+
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    },
+
+    {
+      "id": "2",
+      "image": "/attila.png",
+      "position": "Front-End Developer - VTB",
+      "name": "Attila A",
+      "location": "Saint Petersburg, Russia",
+      "avaible_time": "20 hrs/week",
+      "avaible": true,
+      "like": false,
+      "official": false,
+      "Education": [
+        {
+          "id": "1",
+          "img": "/Flag1.png",
+          "speciality": "Spb, Computer Animation",
+          "education": "University of London • Class of 2020"
+        },
+        {
+          "id": "2",
+          "img": "/Flag2.png",
+          "speciality": "Transnistria, Game Animation",
+          "education": "Saint Petersburg State University"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "/Google.png",
+          "position": "Front-End Developer - VTB",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Adobe Premiere Pro, Final Cut pro, Canva, and Short form editing for TikTok",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•Film and edit videos to enhance our social media presence and capture the student’s attention."
+            }
+          ]
+        }
+      ],
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    },
+    {
+      "id": "3",
+      "image": "/Serena.png",
+      "position": "Russian Translator - Apple Russia",
+      "name": "Serena M",
+      "location": "Saint Petersburg, Russia",
+      "avaible_time": "20 - 40 hrs/week",
+      "avaible": false,
+      "like": false,
+      "official": false,
+      "Education": [
+        {
+          "id": "1",
+          "img": "../src/images/Msc.jpg",
+          "speciality": "Spb, Computer Animation",
+          "education": "University of London • Class of 2020"
+        },
+        {
+          "id": "2",
+          "img": "../src/images/Bsc.jpg",
+          "speciality": "Transnistria, Game Animation",
+          "education": "Saint Petersburg State University"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "/Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•Film and edit videos to enhance our social media presence and capture the student’s attention."
+            }
+          ]
+        }
+      ],
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    },
+    {
+      "id": "4",
+      "image": "/Nicholas.png",
+      "position": "Content Writer - Joy Radio",
+      "name": "Nicholas G",
+      "location": "Novosibirsk, Russia",
+      "avaible_time": "5 - 20 hrs/week",
+      "avaible": true,
+      "like": false,
+      "official": false,
+      "Education": [
+        {
+          "id": "1",
+          "img": "/Flag1.png",
+          "speciality": "Harcov, Computer Animation",
+          "education": "University of Harcow"
+        },
+        {
+          "id": "2",
+          "img": "../src/images/Bsc.jpg",
+          "speciality": "Kiev, Game Animation",
+          "education": "Kiev State University • Class of 2018"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "/Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Adobe Premiere Pro, Final Cut pro, Canva, and Short form editing for TikTok",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•Film and edit videos to enhance our social media presence and capture the student’s attention."
+            }
+          ]
+        }
+      ],
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    },
+    {
+      "id": "5",
+      "image": "/Andrea.png",
+      "position": "Content Writer - Joy Radio",
+      "name": "Nicholas G",
+      "location": "Novosibirsk, Russia",
+      "avaible_time": "10-20 hrs/week",
+      "avaible": true,
+      "like": false,
+      "official": false,
+      "Education": [
+        {
+          "id": "1",
+          "img": "/Flag1.png",
+          "speciality": "Spb, Computer Animation",
+          "education": "University of London • Class of 2020"
+        },
+        {
+          "id": "2",
+          "img": "../src/images/Bsc.jpg",
+          "speciality": "Transnistria, Game Animation",
+          "education": "Saint Petersburg State University"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "/Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Increase user base on Instagram from 1500 followers to 2200 followers."
+            },
+
+            {
+              "id": "2",
+              "text": "•Create Reels and TikToks to engage students in events that reached over 31,000 views"
+            },
+            {
+              "id": "3",
+              "text": "•FLorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            }
+          ]
+        }
+      ],
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    },
+    {
+      "id": "6",
+      "image": "/Nicholas.png",
+      "position": "Content Writer - Joy Radio",
+      "name": "Nicholas G",
+      "location": "Novosibirsk, Russia",
+      "avaible_time": "10-20 hrs/week",
+      "avaible": true,
+      "like": false,
+      "official": false,
+      "Education": [
+        {
+          "id": "1",
+          "img": "/Flag1.png",
+          "speciality": "Spb, Computer Animation",
+          "education": "University of London • Class of 2020"
+        },
+        {
+          "id": "2",
+          "img": "../src/images/Bsc.jpg",
+          "speciality": "Transnistria, Game Animation",
+          "education": "Saint Petersburg State University"
+        }
+      ],
+      "Experience": [
+        {
+          "img": "./Google.png",
+          "position": "Marketing Intern ",
+          "location": "Google • Los Angeles, USA (Remote)",
+          "time": "Sep 2021 - Present • 6 months",
+          "skill": "Adobe Premiere Pro, Final Cut pro, Canva, and Short form editing for TikTok",
+          "goal": [
+            {
+              "id": "1",
+              "text": "•Increase user base on Instagram from 1500 followers to 2200 followers."
+            },
+
+            {
+              "id": "2",
+              "text": "•Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores excepturi consequatur obcaecati, est atque aliquid ullam laudantium illo ad delectus, iusto deleniti, magni aperiam. Mollitia cum corrupti odio et?"
+            },
+            {
+              "id": "3",
+              "text": "•Film and edit videos to enhance our social media presence and capture the student’s attention."
+            }
+          ]
+        }
+      ],
+      "text": "I am a full-time student at Full Sail University to pursue a bachelor's degree in Computer Animation. I am a loving wife and fur mom. I have graduated from TVCC in the year of 2020 with an Associate's of Arts Degree. I graduated from Mabank High School in the year of 2018. I am very passionate in art and want to pursue it as a way of making a living for family. I am a hard worker whom is willing to do anything for my husband and my fur-daughter."
+    }
+  ]
+}

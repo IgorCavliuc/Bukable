@@ -1,0 +1,18 @@
+.filter {
+  width: 40%;
+  height: 35px;
+}
+.filter select {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: none;
+  color: #686868;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  padding: 0 30px;
+}
+.filter option {
+}

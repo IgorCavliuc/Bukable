@@ -1,0 +1,141 @@
+.navbar {
+  width: 20%;
+  padding: 0 15px;
+  transition: 1s;
+}
+.visible {
+  left: 0 !important;
+}
+.navbar__conteiner {
+  width: 150px;
+  margin: 0 auto;
+}
+.navbar__navigation {
+}
+.navbar__btn-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 33px;
+  background: #9a05eb;
+  border-radius: 15px;
+  color: white;
+  margin: 10px 0 37px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.btn-create {
+  margin-left: 7px;
+}
+.navbar__navigation-item {
+  margin-bottom: 130px;
+}
+.navigation-list {
+}
+.navigation-item {
+  cursor: pointer;
+  width: 100%;
+  height: 33px;
+  border-radius: 8px;
+  margin: 25px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 16px;
+  transition: 0.2s;
+}
+.active-item {
+  background: white;
+  color: #9a05eb;
+}
+.active-item svg path:first-child {
+  fill: #9a05eb;
+  opacity: 1;
+}
+.active-item svg path:nth-child(2n) {
+  fill: white;
+}
+.active-item:first-child svg path:first-child {
+  fill: #9a05eb;
+  opacity: 0.4;
+}
+.active-item:first-child svg path:nth-child(2n) {
+  fill: #9a05eb;
+}
+
+.navigation-item:hover {
+  background: white;
+  color: #9a05eb;
+}
+.navigation-item:hover svg path:first-child {
+  fill: #9a05eb;
+  opacity: 1;
+}
+.navigation-item:hover svg path:nth-child(2n) {
+  fill: white;
+}
+.navigation-item:first-child:hover svg path:first-child {
+  fill: #9a05eb;
+  opacity: 0.4;
+}
+.navigation-item:first-child:hover svg path:nth-child(2n) {
+  fill: #9a05eb;
+}
+
+.navigation-item svg {
+  margin-right: 7px;
+}
+
+.navbar__footer {
+}
+.info-list {
+  margin-bottom: 15px;
+}
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.social-link {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.social-link img {
+  padding: 0 6px;
+}
+.navbar__footer p {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%;
+    position: absolute;
+    background: black;
+    z-index: 15;
+    height: 100%;
+    left: -1015px;
+  }
+}

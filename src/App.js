@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState, useEffect } from "react";
+import Data from "./Component/Data/Data";
+import Header from "./Component/Header/Header";
+import Navbar from "./Component/Navbar/Navbar";
+import Persone from "./Component/Persone/Persone";
+import PersoneDetale from "./Component/PersoneDetale/PersoneDetale";
 
 function App() {
+  const [state, setState] = useState({});
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const apiUrl = `http://localhost:3000/InfoPerson.json`;
+    fetch(apiUrl)
+      .then((res) => res.json())
+      .then((repos) => {
+        setState(repos.persons);
+      });
+  }, []);
+
+  const onClickVisible = () => {
+    setVisible(!visible);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header onClickVisible={onClickVisible} />
+      <div className="container">
+        <Navbar visible={visible} />
+        <Data state={state} />
+      </div>
     </div>
   );
 }

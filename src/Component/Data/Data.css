@@ -1,0 +1,37 @@
+.data__container {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 50px;
+  width: 100%;
+}
+.data__container > *:first-child {
+  align-self: stretch;
+}
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 32px;
+}
+.persone__detale-block {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .data__container {
+    display: block;
+    margin: 0px 20px;
+  }
+  .persone {
+    width: 100%;
+  }
+  .persone__detale-block {
+    position: absolute;
+    top: 83px;
+    left: 0;
+    width: 100%;
+  }
+  .navbar {
+    margin-right: 10px;
+  }
+}

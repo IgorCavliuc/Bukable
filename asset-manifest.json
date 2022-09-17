@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bukable/static/css/main.8a926176.css",
+    "main.css": "/Bukable/static/css/main.f730e49d.css",
     "main.js": "/Bukable/static/js/main.43fe8ca9.js",
     "static/media/avatar.svg": "/Bukable/static/media/avatar.87bf8f3d3b7f4352b2644672d780c3f9.svg",
     "static/media/playmarket.svg": "/Bukable/static/media/playmarket.6fb68452975f38291647c871a2857634.svg",
@@ -8,11 +8,11 @@
     "static/media/AvatarMan.png": "/Bukable/static/media/AvatarMan.c54986396555ee0ad085.png",
     "static/media/BukableLogo(Purple&White).svg": "/Bukable/static/media/BukableLogo(Purple&White).82d1b0b79fbaf05dcfee7d6003df3c6a.svg",
     "index.html": "/Bukable/index.html",
-    "main.8a926176.css.map": "/Bukable/static/css/main.8a926176.css.map",
+    "main.f730e49d.css.map": "/Bukable/static/css/main.f730e49d.css.map",
     "main.43fe8ca9.js.map": "/Bukable/static/js/main.43fe8ca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a926176.css",
+    "static/css/main.f730e49d.css",
     "static/js/main.43fe8ca9.js"
   ]
 }
